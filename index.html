@@ -1,0 +1,87 @@
+html<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang web đầu tiên của tôi</title>
+    
+    <style>
+        body {
+            background-color: #f0f8ff; 
+            font-family: Arial, sans-serif; 
+            padding: 20px; 
+        }
+
+        h1 {
+            color: #ff4500; 
+            text-align: center; 
+        }
+
+        /* Thêm một lớp căn giữa cho các nội dung văn bản ở trên */
+        .can-giua {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #008cba; 
+            color: white; 
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        button:hover {
+            background-color: #005f7a; 
+            transform: scale(1.05); 
+            transition: all 0.2s ease; 
+        }
+
+        img {
+            width: 300px; 
+            border-radius: 10px; 
+            display: block; 
+            margin: 20px auto; /* Mẹo: Căn giữa bức ảnh */
+        }
+
+        /* Cấu hình nâng cấp cho cái hộp sở thích */
+        .khung-so-thich {
+            background-color: white; 
+            border: 2px solid #008cba; 
+            border-radius: 8px; 
+            max-width: 400px; 
+            
+            /* TẬP TRUNG VÀO ĐOẠN NÀY: */
+            padding: 30px;      /* Tăng khoảng đệm bên trong cho chữ thoáng hơn */
+            margin: 40px auto;  /* 40px là đẩy cách xa phía trên, 'auto' là tự động căn giữa cái hộp */
+            
+            /* Thêm hiệu ứng đổ bóng cho cái hộp trông như nổi lên mặt lồi */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Học lập trình Web cùng AI</h1>
+    
+    <!-- Gộp các phần trên vào một khối căn giữa cho đẹp -->
+    <div class="can-giua">
+        <p>Tôi đang tự học lập trình HTML. Mục tiêu của tôi là tự tay thiết kế được một trang web thật đẹp.</p>
+        <p>Ghé thăm <a href="https://google.com" target="_blank">Trang tìm kiếm Google</a></p>
+        <button>Đăng ký ngay</button>
+    </div>
+
+    <img src="https://picsum.photos" alt="Ảnh phong cảnh">
+
+    <div class="khung-so-thich">
+        <h2>Sở thích của tôi</h2>
+        <ul>
+            <li>Lập trình HTML / CSS</li>
+            <li>Thiết kế giao diện Figma</li>
+            <li>Xem phim và đọc sách</li>
+        </ul>
+    </div>
+
+</body>
+</html>
